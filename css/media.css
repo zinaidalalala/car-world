@@ -8,12 +8,20 @@
     --offset: 2;
   }
 
+  .catalog .product__list {
+    --offset: 1;
+  }
+
   .offers__container {
     padding: 0 20px;
   }
 }
 
 @media (max-width: 1111px) {
+  .catalog .product__list {
+    --offset: 0;
+  }
+
   .product__item {
     max-width: none;
   }
@@ -22,8 +30,13 @@
     width: 80%;
   }
 
-  .product__list {
-    --offset: 1;
+  .hero-new {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .promo-div {
+    align-self: center;
   }
 }
 
@@ -60,7 +73,6 @@
   }
 }
 
-
 @media (max-width: 998px) {
   .additional__list {
     overflow: scroll;
@@ -73,9 +85,7 @@
   .popular__list {
     overflow: scroll;
   }
-
 }
-
 
 @media (max-width: 835px) {
   .product__list {
@@ -86,7 +96,6 @@
     display: none;
   }
 }
-
 
 @media (max-width: 768px) {
   .header {
@@ -132,7 +141,7 @@
 
   .footer-nav {
     flex-direction: column;
-    color: #7F7F7F;
+    color: #7f7f7f;
     font-weight: 400;
   }
 
@@ -143,7 +152,7 @@
   .footer-nav__item {
     text-align: center;
     padding: 16px;
-    border-top: 1px solid #D6D6D6;
+    border-top: 1px solid #d6d6d6;
   }
 
   .footer-nav__item:last-child {
@@ -151,7 +160,7 @@
   }
 
   .footer-nav__item:nth-child(3) {
-    border-bottom: 1px solid #D6D6D6;
+    border-bottom: 1px solid #d6d6d6;
   }
 
   .copyright--desktop {
@@ -161,7 +170,7 @@
   .copyright--mobile {
     font-size: 14px;
     line-height: 16px;
-    color: #A5A5A5;
+    color: #a5a5a5;
     text-align: center;
     margin: 0;
     padding: 30px;
@@ -169,7 +178,6 @@
 }
 
 @media (min-width: 768px) {
-
   .article__svg {
     width: 97px;
     height: 97px;
@@ -183,10 +191,10 @@
     margin-right: 15px;
   }
 
-  .footer-nav__item:last-child {
+  /* .footer-nav__item:last-child {
     margin-right: 0;
     margin-top: 22px;
-  }
+  } */
 
   .footer-nav h4,
   .footer-nav__item li {
@@ -196,7 +204,6 @@
 }
 
 @media (max-width: 576px) {
-
   .container {
     padding: 0 16px;
   }
@@ -354,7 +361,7 @@
     width: initial;
   }
 
-  .preview__radio .radio__label{
+  .preview__radio .radio__label {
     width: 7px;
     height: 7px;
   }
@@ -444,5 +451,4 @@
     font-weight: 400;
     line-height: 18px;
   }
-
 }

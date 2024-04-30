@@ -1,9 +1,4 @@
 
-
-
-
-
-
 // heart
 
 let hearts = document.querySelectorAll(".heart");
@@ -65,47 +60,7 @@ handleRadioButtons(goodsCards, radioButtonsGoods, "flex");
 handleRadioButtons(offersCards, radioButtonsOffers, "flex");
 handleRadioButtons(previewCards, radioButtonsPreview, "flex");
 
-
-
-// нажатие на стрелочки
-
-
-// let cards = document.querySelectorAll(".offers__item");
-// let arrowLeft = document.querySelector(".product__arrow--left1");
-// let arrowRight = document.querySelector(".product__arrow--right1");
-
-// let min = 0;
-// let max = 4;
-
-// function showCard(min, max, cards) {
-//   for (let i = 0; i < cards.length; i++) {
-//     if (i >= min && i < max) {
-//       cards[i].classList.add("visible");
-//     } else {
-//       cards[i].classList.remove("visible");
-//     }
-//   }
-// }
-
-// showCard(min, max, offersCards);
-
-
-
-// arrowLeft.addEventListener("click", function () {
-//   if (min > 0) {
-//     min--;
-//     max--;
-//   }
-//   showCard(min, max, offersCards);
-// });
-
-// arrowRight.addEventListener("click", function () {
-//   if (max < offersCards.length) {
-//     min++;
-//     max++;
-//   }
-//   showCard(min, max, offersCards);
-// });
+// стрелочки в галерее товаров
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -152,6 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// очищаем поле ввода в строке поиска
 
 let searchBtn = document.querySelector('.search__button');
 let searchInput = document.querySelector('.search__input');
