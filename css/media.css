@@ -285,6 +285,10 @@
     margin-bottom: 31px;
   }
 
+  .preview-arrow-svg {
+    display: none;
+  }
+
   .search__list {
     margin-bottom: 8px;
     gap: 28px;

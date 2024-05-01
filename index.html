@@ -393,9 +393,8 @@
           <h2 class="section-title visually-hidden">Product announcement</h2>
           <div class="hero-new">
             <div class="hero__wrapper preview">
-              <div class="preview__img preview__img--first">
+              <button class="btn preview-arrow preview-arrow-left">
                 <svg
-                  class="preview-arrow-svg preview-arrow-svg--left"
                   width="76.000000"
                   height="76.000000"
                   viewBox="0 0 76 76"
@@ -464,8 +463,9 @@
                     fill-rule="evenodd"
                   />
                 </svg>
+              </button>
+              <button class="btn preview-arrow preview-arrow-right">
                 <svg
-                  class="preview-arrow-svg preview-arrow-svg--right"
                   width="76.000000"
                   height="76.000000"
                   viewBox="0 0 76 76"
@@ -534,27 +534,34 @@
                     fill-rule="evenodd"
                   />
                 </svg>
-                <!-- <h3 class="preview__title">1</h3> -->
+              </button>
+              <div class="preview__img">
                 <picture>
                   <source
-                    srcset="img/bac-hero@1x.webp 1x, img/bac-hero@2x.webp 2x"
+                    srcset="
+                      img/hero/1hero-desktop@1x.webp 1x,
+                      img/hero/1hero-desktop@2x.webp 2x
+                    "
                     media="(min-width: 576px)"
                     type="image/webp"
                   />
                   <source
-                    srcset="img/bac-hero@1x.jpg 1x, img/bac-hero@2x.jpg 2x"
+                    srcset="
+                      img/hero/1hero-desktop@1x.jpeg 1x,
+                      img/hero/1hero-desktop@2x.jpeg 2x
+                    "
                     media="(min-width: 576px)"
                   />
                   <source
                     srcset="
-                      img/bac-hero.mob@1x.webp 1x,
-                      img/bac-hero.mob@2x.webp 2x
+                      img/hero/1hero-mob@1x.webp 1x,
+                      img/hero/1hero-mob@2x.webp 2x
                     "
                     type="image/webp"
                   />
                   <img
-                    src="img/bac-hero.mob@1x.jpg 1x"
-                    srcset="img/bac-hero.mob@2x.jpg 2x"
+                    src="img/hero/1hero-mob@1x.jpeg 1x"
+                    srcset="img/hero/1hero-mob@2x.jpeg 2x"
                     class="bac-hero-img"
                     alt="Product announcement"
                     loading="lazy"
@@ -562,850 +569,165 @@
                 </picture>
               </div>
               <div class="preview__img">
-                <svg
-                  class="preview-arrow-svg preview-arrow-svg--left"
-                  width="76.000000"
-                  height="76.000000"
-                  viewBox="0 0 76 76"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <defs>
-                    <filter
-                      id="filter_1_1178_dd"
-                      x="0.000000"
-                      y="0.000000"
-                      width="75.990723"
-                      height="76.000000"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dx="0" dy="0" />
-                      <feGaussianBlur stdDeviation="6.66667" />
-                      <feComposite
-                        in2="hardAlpha"
-                        operator="out"
-                        k2="-1"
-                        k3="1"
-                      />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect_dropShadow_1"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect_dropShadow_1"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                  <g filter="url(#filter_1_1178_dd)">
-                    <ellipse
-                      id="Ellipse 3"
-                      cx="37.995605"
-                      cy="38.000000"
-                      rx="17.995464"
-                      ry="18.000000"
-                      fill="#FFFFFF"
-                      fill-opacity="0.300000"
-                    />
-                  </g>
-                  <path
-                    id="Rectangle 3"
-                    d="M35.3 33.15L30.9 37.4L35.23 41.89L35.95 41.19L31.96 37.07L31.6 37.41L31.95 37.77L36 33.87L35.3 33.15ZM44.75 37.15L31.61 36.91L31.6 37.91L44.73 38.15L44.75 37.15Z"
-                    fill="#FFFFFF"
-                    fill-opacity="1.000000"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-                <svg
-                  class="preview-arrow-svg preview-arrow-svg--right"
-                  width="76.000000"
-                  height="76.000000"
-                  viewBox="0 0 76 76"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <defs>
-                    <filter
-                      id="filter_1_1175_dd"
-                      x="0.000000"
-                      y="0.000000"
-                      width="75.990723"
-                      height="76.000000"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dx="0" dy="0" />
-                      <feGaussianBlur stdDeviation="6.66667" />
-                      <feComposite
-                        in2="hardAlpha"
-                        operator="out"
-                        k2="-1"
-                        k3="1"
-                      />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect_dropShadow_1"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect_dropShadow_1"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                  <g filter="url(#filter_1_1178_dd)">
-                    <ellipse
-                      id="Ellipse 3"
-                      cx="37.995605"
-                      cy="38.000000"
-                      rx="17.995464"
-                      ry="18.000000"
-                      fill="#FFFFFF"
-                      fill-opacity="0.300000"
-                    />
-                  </g>
-                  <path
-                    id="Rectangle 3"
-                    d="M40.68 33.15L45.08 37.4L40.75 41.89L40.03 41.19L44.02 37.07L44.38 37.41L44.03 37.77L39.98 33.87L40.68 33.15ZM31.23 37.15L44.37 36.91L44.38 37.91L31.25 38.15L31.23 37.15Z"
-                    fill="#FFFFFF"
-                    fill-opacity="1.000000"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-                <!-- <h3 class="preview__title">2</h3> -->
                 <picture>
                   <source
-                    srcset="img/bac-hero@1x.webp 1x, img/bac-hero@2x.webp 2x"
-                    media="(min-width: 768px)"
+                    srcset="
+                      img/hero/2hero-desktop@1x.webp 1x,
+                      img/hero/2hero-desktop@2x.webp 2x
+                    "
+                    media="(min-width: 576px)"
                     type="image/webp"
                   />
                   <source
-                    srcset="img/bac-hero@1x.jpg 1x, img/bac-hero@2x.jpg 2x"
-                    media="(min-width: 768px)"
+                    srcset="
+                      img/hero/2hero-desktop@1x.jpeg 1x,
+                      img/hero/2hero-desktop@2x.jpeg 2x
+                    "
+                    media="(min-width: 576px)"
                   />
                   <source
                     srcset="
-                      img/bac-hero.mob@1x.webp 1x,
-                      img/bac-hero.mob@2x.webp 2x
+                      img/hero/2hero-mob@1x.webp 1x,
+                      img/hero/2hero-mob@2x.webp 2x
                     "
                     type="image/webp"
                   />
                   <img
-                    src="img/bac-hero.mob@1x.jpg 1x"
-                    srcset="img/bac-hero.mob@2x.jpg 2x"
+                    src="img/hero/2hero-mob@1x.jpeg 1x"
+                    srcset="img/hero/2hero-mob@2x.jpeg 2x"
                     class="bac-hero-img"
-                    width="870"
-                    height="417"
                     alt="Product announcement"
                     loading="lazy"
                   />
                 </picture>
               </div>
               <div class="preview__img">
-                <svg
-                  class="preview-arrow-svg preview-arrow-svg--left"
-                  width="76.000000"
-                  height="76.000000"
-                  viewBox="0 0 76 76"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <defs>
-                    <filter
-                      id="filter_1_1178_dd"
-                      x="0.000000"
-                      y="0.000000"
-                      width="75.990723"
-                      height="76.000000"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dx="0" dy="0" />
-                      <feGaussianBlur stdDeviation="6.66667" />
-                      <feComposite
-                        in2="hardAlpha"
-                        operator="out"
-                        k2="-1"
-                        k3="1"
-                      />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect_dropShadow_1"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect_dropShadow_1"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                  <g filter="url(#filter_1_1178_dd)">
-                    <ellipse
-                      id="Ellipse 3"
-                      cx="37.995605"
-                      cy="38.000000"
-                      rx="17.995464"
-                      ry="18.000000"
-                      fill="#FFFFFF"
-                      fill-opacity="0.300000"
-                    />
-                  </g>
-                  <path
-                    id="Rectangle 3"
-                    d="M35.3 33.15L30.9 37.4L35.23 41.89L35.95 41.19L31.96 37.07L31.6 37.41L31.95 37.77L36 33.87L35.3 33.15ZM44.75 37.15L31.61 36.91L31.6 37.91L44.73 38.15L44.75 37.15Z"
-                    fill="#FFFFFF"
-                    fill-opacity="1.000000"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-                <svg
-                  class="preview-arrow-svg preview-arrow-svg--right"
-                  width="76.000000"
-                  height="76.000000"
-                  viewBox="0 0 76 76"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <defs>
-                    <filter
-                      id="filter_1_1175_dd"
-                      x="0.000000"
-                      y="0.000000"
-                      width="75.990723"
-                      height="76.000000"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dx="0" dy="0" />
-                      <feGaussianBlur stdDeviation="6.66667" />
-                      <feComposite
-                        in2="hardAlpha"
-                        operator="out"
-                        k2="-1"
-                        k3="1"
-                      />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect_dropShadow_1"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect_dropShadow_1"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                  <g filter="url(#filter_1_1178_dd)">
-                    <ellipse
-                      id="Ellipse 3"
-                      cx="37.995605"
-                      cy="38.000000"
-                      rx="17.995464"
-                      ry="18.000000"
-                      fill="#FFFFFF"
-                      fill-opacity="0.300000"
-                    />
-                  </g>
-                  <path
-                    id="Rectangle 3"
-                    d="M40.68 33.15L45.08 37.4L40.75 41.89L40.03 41.19L44.02 37.07L44.38 37.41L44.03 37.77L39.98 33.87L40.68 33.15ZM31.23 37.15L44.37 36.91L44.38 37.91L31.25 38.15L31.23 37.15Z"
-                    fill="#FFFFFF"
-                    fill-opacity="1.000000"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-                <!-- <h3 class="preview__title">3</h3> -->
                 <picture>
                   <source
-                    srcset="img/bac-hero@1x.webp 1x, img/bac-hero@2x.webp 2x"
-                    media="(min-width: 768px)"
+                    srcset="
+                      img/hero/3hero-desktop@1x.webp 1x,
+                      img/hero/3hero-desktop@2x.webp 2x
+                    "
+                    media="(min-width: 576px)"
                     type="image/webp"
                   />
                   <source
-                    srcset="img/bac-hero@1x.jpg 1x, img/bac-hero@2x.jpg 2x"
-                    media="(min-width: 768px)"
+                    srcset="
+                      img/hero/3hero-desktop@1x.jpeg 1x,
+                      img/hero/3hero-desktop@2x.jpeg 2x
+                    "
+                    media="(min-width: 576px)"
                   />
                   <source
                     srcset="
-                      img/bac-hero.mob@1x.webp 1x,
-                      img/bac-hero.mob@2x.webp 2x
+                      img/hero/3hero-mob@1x.webp 1x,
+                      img/hero/3hero-mob@2x.webp 2x
                     "
                     type="image/webp"
                   />
                   <img
-                    src="img/bac-hero.mob@1x.jpg 1x"
-                    srcset="img/bac-hero.mob@2x.jpg 2x"
+                    src="img/hero/3hero-mob@1x.jpeg 1x"
+                    srcset="img/hero/3hero-mob@2x.jpeg 2x"
                     class="bac-hero-img"
-                    width="870"
-                    height="417"
                     alt="Product announcement"
                     loading="lazy"
                   />
                 </picture>
               </div>
               <div class="preview__img">
-                <svg
-                  class="preview-arrow-svg preview-arrow-svg--left"
-                  width="76.000000"
-                  height="76.000000"
-                  viewBox="0 0 76 76"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <defs>
-                    <filter
-                      id="filter_1_1178_dd"
-                      x="0.000000"
-                      y="0.000000"
-                      width="75.990723"
-                      height="76.000000"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dx="0" dy="0" />
-                      <feGaussianBlur stdDeviation="6.66667" />
-                      <feComposite
-                        in2="hardAlpha"
-                        operator="out"
-                        k2="-1"
-                        k3="1"
-                      />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect_dropShadow_1"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect_dropShadow_1"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                  <g filter="url(#filter_1_1178_dd)">
-                    <ellipse
-                      id="Ellipse 3"
-                      cx="37.995605"
-                      cy="38.000000"
-                      rx="17.995464"
-                      ry="18.000000"
-                      fill="#FFFFFF"
-                      fill-opacity="0.300000"
-                    />
-                  </g>
-                  <path
-                    id="Rectangle 3"
-                    d="M35.3 33.15L30.9 37.4L35.23 41.89L35.95 41.19L31.96 37.07L31.6 37.41L31.95 37.77L36 33.87L35.3 33.15ZM44.75 37.15L31.61 36.91L31.6 37.91L44.73 38.15L44.75 37.15Z"
-                    fill="#FFFFFF"
-                    fill-opacity="1.000000"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-                <svg
-                  class="preview-arrow-svg preview-arrow-svg--right"
-                  width="76.000000"
-                  height="76.000000"
-                  viewBox="0 0 76 76"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <defs>
-                    <filter
-                      id="filter_1_1175_dd"
-                      x="0.000000"
-                      y="0.000000"
-                      width="75.990723"
-                      height="76.000000"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dx="0" dy="0" />
-                      <feGaussianBlur stdDeviation="6.66667" />
-                      <feComposite
-                        in2="hardAlpha"
-                        operator="out"
-                        k2="-1"
-                        k3="1"
-                      />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect_dropShadow_1"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect_dropShadow_1"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                  <g filter="url(#filter_1_1178_dd)">
-                    <ellipse
-                      id="Ellipse 3"
-                      cx="37.995605"
-                      cy="38.000000"
-                      rx="17.995464"
-                      ry="18.000000"
-                      fill="#FFFFFF"
-                      fill-opacity="0.300000"
-                    />
-                  </g>
-                  <path
-                    id="Rectangle 3"
-                    d="M40.68 33.15L45.08 37.4L40.75 41.89L40.03 41.19L44.02 37.07L44.38 37.41L44.03 37.77L39.98 33.87L40.68 33.15ZM31.23 37.15L44.37 36.91L44.38 37.91L31.25 38.15L31.23 37.15Z"
-                    fill="#FFFFFF"
-                    fill-opacity="1.000000"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-                <!-- <h3 class="preview__title">4</h3> -->
                 <picture>
                   <source
-                    srcset="img/bac-hero@1x.webp 1x, img/bac-hero@2x.webp 2x"
-                    media="(min-width: 768px)"
+                    srcset="
+                      img/hero/1hero-desktop@1x.webp 1x,
+                      img/hero/1hero-desktop@2x.webp 2x
+                    "
+                    media="(min-width: 576px)"
                     type="image/webp"
                   />
                   <source
-                    srcset="img/bac-hero@1x.jpg 1x, img/bac-hero@2x.jpg 2x"
-                    media="(min-width: 768px)"
+                    srcset="
+                      img/hero/1hero-desktop@1x.jpeg 1x,
+                      img/hero/1hero-desktop@2x.jpeg 2x
+                    "
+                    media="(min-width: 576px)"
                   />
                   <source
                     srcset="
-                      img/bac-hero.mob@1x.webp 1x,
-                      img/bac-hero.mob@2x.webp 2x
+                      img/hero/1hero-mob@1x.webp 1x,
+                      img/hero/1hero-mob@2x.webp 2x
                     "
                     type="image/webp"
                   />
                   <img
-                    src="img/bac-hero.mob@1x.jpg 1x"
-                    srcset="img/bac-hero.mob@2x.jpg 2x"
+                    src="img/hero/1hero-mob@1x.jpeg 1x"
+                    srcset="img/hero/1hero-mob@2x.jpeg 2x"
                     class="bac-hero-img"
-                    width="870"
-                    height="417"
                     alt="Product announcement"
                     loading="lazy"
                   />
                 </picture>
               </div>
               <div class="preview__img">
-                <svg
-                  class="preview-arrow-svg preview-arrow-svg--left"
-                  width="76.000000"
-                  height="76.000000"
-                  viewBox="0 0 76 76"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <defs>
-                    <filter
-                      id="filter_1_1178_dd"
-                      x="0.000000"
-                      y="0.000000"
-                      width="75.990723"
-                      height="76.000000"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dx="0" dy="0" />
-                      <feGaussianBlur stdDeviation="6.66667" />
-                      <feComposite
-                        in2="hardAlpha"
-                        operator="out"
-                        k2="-1"
-                        k3="1"
-                      />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect_dropShadow_1"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect_dropShadow_1"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                  <g filter="url(#filter_1_1178_dd)">
-                    <ellipse
-                      id="Ellipse 3"
-                      cx="37.995605"
-                      cy="38.000000"
-                      rx="17.995464"
-                      ry="18.000000"
-                      fill="#FFFFFF"
-                      fill-opacity="0.300000"
-                    />
-                  </g>
-                  <path
-                    id="Rectangle 3"
-                    d="M35.3 33.15L30.9 37.4L35.23 41.89L35.95 41.19L31.96 37.07L31.6 37.41L31.95 37.77L36 33.87L35.3 33.15ZM44.75 37.15L31.61 36.91L31.6 37.91L44.73 38.15L44.75 37.15Z"
-                    fill="#FFFFFF"
-                    fill-opacity="1.000000"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-                <svg
-                  class="preview-arrow-svg preview-arrow-svg--right"
-                  width="76.000000"
-                  height="76.000000"
-                  viewBox="0 0 76 76"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <defs>
-                    <filter
-                      id="filter_1_1175_dd"
-                      x="0.000000"
-                      y="0.000000"
-                      width="75.990723"
-                      height="76.000000"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dx="0" dy="0" />
-                      <feGaussianBlur stdDeviation="6.66667" />
-                      <feComposite
-                        in2="hardAlpha"
-                        operator="out"
-                        k2="-1"
-                        k3="1"
-                      />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect_dropShadow_1"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect_dropShadow_1"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                  <g filter="url(#filter_1_1178_dd)">
-                    <ellipse
-                      id="Ellipse 3"
-                      cx="37.995605"
-                      cy="38.000000"
-                      rx="17.995464"
-                      ry="18.000000"
-                      fill="#FFFFFF"
-                      fill-opacity="0.300000"
-                    />
-                  </g>
-                  <path
-                    id="Rectangle 3"
-                    d="M40.68 33.15L45.08 37.4L40.75 41.89L40.03 41.19L44.02 37.07L44.38 37.41L44.03 37.77L39.98 33.87L40.68 33.15ZM31.23 37.15L44.37 36.91L44.38 37.91L31.25 38.15L31.23 37.15Z"
-                    fill="#FFFFFF"
-                    fill-opacity="1.000000"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-                <!-- <h3 class="preview__title">5</h3> -->
                 <picture>
                   <source
-                    srcset="img/bac-hero@1x.webp 1x, img/bac-hero@2x.webp 2x"
-                    media="(min-width: 768px)"
+                    srcset="
+                      img/hero/2hero-desktop@1x.webp 1x,
+                      img/hero/2hero-desktop@2x.webp 2x
+                    "
+                    media="(min-width: 576px)"
                     type="image/webp"
                   />
                   <source
-                    srcset="img/bac-hero@1x.jpg 1x, img/bac-hero@2x.jpg 2x"
-                    media="(min-width: 768px)"
+                    srcset="
+                      img/hero/2hero-desktop@1x.jpeg 1x,
+                      img/hero/2hero-desktop@2x.jpeg 2x
+                    "
+                    media="(min-width: 576px)"
                   />
                   <source
                     srcset="
-                      img/bac-hero.mob@1x.webp 1x,
-                      img/bac-hero.mob@2x.webp 2x
+                      img/hero/2hero-mob@1x.webp 1x,
+                      img/hero/2hero-mob@2x.webp 2x
                     "
                     type="image/webp"
                   />
                   <img
-                    src="img/bac-hero.mob@1x.jpg 1x"
-                    srcset="img/bac-hero.mob@2x.jpg 2x"
+                    src="img/hero/2hero-mob@1x.jpeg 1x"
+                    srcset="img/hero/2hero-mob@2x.jpeg 2x"
                     class="bac-hero-img"
-                    width="870"
-                    height="417"
                     alt="Product announcement"
                     loading="lazy"
                   />
                 </picture>
               </div>
               <div class="preview__img">
-                <svg
-                  class="preview-arrow-svg preview-arrow-svg--left"
-                  width="76.000000"
-                  height="76.000000"
-                  viewBox="0 0 76 76"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <defs>
-                    <filter
-                      id="filter_1_1178_dd"
-                      x="0.000000"
-                      y="0.000000"
-                      width="75.990723"
-                      height="76.000000"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dx="0" dy="0" />
-                      <feGaussianBlur stdDeviation="6.66667" />
-                      <feComposite
-                        in2="hardAlpha"
-                        operator="out"
-                        k2="-1"
-                        k3="1"
-                      />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect_dropShadow_1"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect_dropShadow_1"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                  <g filter="url(#filter_1_1178_dd)">
-                    <ellipse
-                      id="Ellipse 3"
-                      cx="37.995605"
-                      cy="38.000000"
-                      rx="17.995464"
-                      ry="18.000000"
-                      fill="#FFFFFF"
-                      fill-opacity="0.300000"
-                    />
-                  </g>
-                  <path
-                    id="Rectangle 3"
-                    d="M35.3 33.15L30.9 37.4L35.23 41.89L35.95 41.19L31.96 37.07L31.6 37.41L31.95 37.77L36 33.87L35.3 33.15ZM44.75 37.15L31.61 36.91L31.6 37.91L44.73 38.15L44.75 37.15Z"
-                    fill="#FFFFFF"
-                    fill-opacity="1.000000"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-                <svg
-                  class="preview-arrow-svg preview-arrow-svg--right"
-                  width="76.000000"
-                  height="76.000000"
-                  viewBox="0 0 76 76"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <defs>
-                    <filter
-                      id="filter_1_1175_dd"
-                      x="0.000000"
-                      y="0.000000"
-                      width="75.990723"
-                      height="76.000000"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dx="0" dy="0" />
-                      <feGaussianBlur stdDeviation="6.66667" />
-                      <feComposite
-                        in2="hardAlpha"
-                        operator="out"
-                        k2="-1"
-                        k3="1"
-                      />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect_dropShadow_1"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect_dropShadow_1"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                  <g filter="url(#filter_1_1178_dd)">
-                    <ellipse
-                      id="Ellipse 3"
-                      cx="37.995605"
-                      cy="38.000000"
-                      rx="17.995464"
-                      ry="18.000000"
-                      fill="#FFFFFF"
-                      fill-opacity="0.300000"
-                    />
-                  </g>
-                  <path
-                    id="Rectangle 3"
-                    d="M40.68 33.15L45.08 37.4L40.75 41.89L40.03 41.19L44.02 37.07L44.38 37.41L44.03 37.77L39.98 33.87L40.68 33.15ZM31.23 37.15L44.37 36.91L44.38 37.91L31.25 38.15L31.23 37.15Z"
-                    fill="#FFFFFF"
-                    fill-opacity="1.000000"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-                <!-- <h3 class="preview__title">6</h3> -->
                 <picture>
                   <source
-                    srcset="img/bac-hero@1x.webp 1x, img/bac-hero@2x.webp 2x"
-                    media="(min-width: 768px)"
+                    srcset="
+                      img/hero/3hero-desktop@1x.webp 1x,
+                      img/hero/3hero-desktop@2x.webp 2x
+                    "
+                    media="(min-width: 576px)"
                     type="image/webp"
                   />
                   <source
-                    srcset="img/bac-hero@1x.jpg 1x, img/bac-hero@2x.jpg 2x"
-                    media="(min-width: 768px)"
+                    srcset="
+                      img/hero/3hero-desktop@1x.jpeg 1x,
+                      img/hero/3hero-desktop@2x.jpeg 2x
+                    "
+                    media="(min-width: 576px)"
                   />
                   <source
                     srcset="
-                      img/bac-hero.mob@1x.webp 1x,
-                      img/bac-hero.mob@2x.webp 2x
+                      img/hero/3hero-mob@1x.webp 1x,
+                      img/hero/3hero-mob@2x.webp 2x
                     "
                     type="image/webp"
                   />
                   <img
-                    src="img/bac-hero.mob@1x.jpg 1x"
-                    srcset="img/bac-hero.mob@2x.jpg 2x"
+                    src="img/hero/3hero-mob@1x.jpeg 1x"
+                    srcset="img/hero/3hero-mob@2x.jpeg 2x"
                     class="bac-hero-img"
-                    width="870"
-                    height="417"
                     alt="Product announcement"
                     loading="lazy"
                   />
@@ -4688,5 +4010,6 @@
       </div>
     </footer>
     <script src="script.js"></script>
+    <script src="script1.js"></script>
   </body>
 </html>

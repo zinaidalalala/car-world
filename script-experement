@@ -1,0 +1,59 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const blocks = document.querySelectorAll('.popular');
+
+  blocks.forEach(function (block) {
+    const productCards = block.querySelectorAll('.product__item');
+    const productArrowLeft = block.querySelector('.product__arrow--left');
+    const productArrowRight = block.querySelector('.product__arrow--right');
+
+    let min = 0;
+    let max = 4; // Показываем по три карточки за раз
+
+    // Функция для отображения карточек
+    function showCards(cards, min, max) {
+      cards.forEach(function (card, index) {
+        if (index >= min && index < max) {
+          card.classList.add("visible");
+        } else {
+          card.classList.remove("visible");
+        }
+      });
+    }
+
+    // Инициализация показа карточек
+    showCards(productCards, min, max);
+
+    function setupGallery(nextBtn, prevBtn, cards) {
+      // Обработчик события для кнопки "вперед"
+      nextBtn.addEventListener('click', function () {
+        if (max < cards.length) {
+          min++;
+          max++;
+          showCards(cards, min, max);
+        }
+      });
+
+      // Обработчик события для кнопки "назад"
+      prevBtn.addEventListener('click', function () {
+        if (min > 0) {
+          min--;
+          max--;
+          showCards(cards, min, max);
+        }
+      });
+    }
+
+    setupGallery(productArrowRight, productArrowLeft, productCards);
+
+  });
+
+  const previewCards = document.querySelectorAll('.preview__img');
+  const previewArrowLeft = document.querySelector('.preview-arrow-left');
+  const previewArrowRight = document.querySelector('.preview-arrow-right');
+
+  let min = 0;
+  let max = 1;
+
+
+  setupGallery(previewArrowRight, previewArrowLeft, previewCards);
+});

@@ -301,10 +301,6 @@ main {
   display: none;
 }
 
-.preview__img--first {
-  display: block;
-}
-
 .preview__title {
   position: absolute;
   left: 10px;
@@ -1689,15 +1685,15 @@ input[type="range"]::-moz-range-thumb {
   gap: 30px;
 }
 
-.preview-arrow-svg {
+.preview-arrow {
   position: absolute;
   top: 40%;
 }
 
-.preview-arrow-svg--left {
+.preview-arrow-left {
   left: 0;
 }
 
-.preview-arrow-svg--right {
+.preview-arrow-right {
   right: 0;
 }
