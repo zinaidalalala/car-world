@@ -17,9 +17,13 @@
   }
 }
 
-@media (max-width: 1111px) {
+@media (max-width: 1200px) {
   .catalog .product__list {
     --offset: 0;
+  }
+
+  .product__list {
+    --offset: 1;
   }
 
   .product__item {
